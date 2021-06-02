@@ -34,7 +34,7 @@ Follow the instructions in [Create a Bucket](https://docs.aws.amazon.com/AmazonS
 
 ![Open Notebook](readme-images/Open_Notebook.png)
 
-8. Click "aiml-immersionday" to open the folder
+8. Click "amazon-rekognition-workshops" to open the folder
 
 ![Open Notebook](readme-images/37.png)
 
