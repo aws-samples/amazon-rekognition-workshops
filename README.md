@@ -63,7 +63,7 @@ Click on **'ground_truth_object_detection_tutorial.ipynb'** to open the notebook
 ![Open Notebook](readme-images/Notebook.png)
 
 ## Step 12. 
-Open the ground_truth_object_detection_turtorial.ipynb and follow the instructions in the Notebook.
+Open the **'ground_truth_object_detection_turtorial.ipynb'** and follow the instructions in the Notebook.
 
 
 ## Security
