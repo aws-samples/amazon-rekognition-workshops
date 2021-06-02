@@ -48,21 +48,16 @@ Click "amazon-rekognition-workshops" to open the folder
 ![Open Notebook](readme-images/37.png)
 
 ## Step 9. 
-Click "sg-ground-truth-labeling" to open the folder
-
-![Open Notebook](readme-images/34.png)
-
-## Step 10. 
 Click "ObjectDetection" to open the folder
 
 ![Open Notebook](readme-images/objectdetection.png)
 
-## Step 11. 
+## Step 10. 
 Click on **'ground_truth_object_detection_tutorial.ipynb'** to open the notebook in the browser
 
 ![Open Notebook](readme-images/Notebook.png)
 
-## Step 12. 
+## Step 11. 
 Open the **'ground_truth_object_detection_turtorial.ipynb'** and follow the instructions in the Notebook.
 
 
