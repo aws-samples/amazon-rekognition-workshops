@@ -1,0 +1,16 @@
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+<crowd-form>
+  <crowd-bounding-box
+    name="boundingBox"
+    src="{{ task.input.taskObject | grant_read_access }}"
+    header="You need to label woodpecker hole in the provided image. Please ensure that you select label 'hole' and draw the box around the woodpecker hole just to fit the hole for better quality of label data. You also need to label other areas which look similar to woodpecker holes but are not woodpecker holes with label 'no_hole'"
+    labels="{{ task.input.labels | to_json | escape }}"
+  >
+    <full-instructions header="Bounding box instructions">
+      <ol><li><strong>Inspect</strong> the image</li><li><strong>Determine</strong> if the specified label is/are visible in the picture.</li><li><strong>Outline</strong> each instance of the specified label in the image using the provided “Box” tool.</li></ol><ul><li>Boxes should fit tight around each object</li><li>Do not include parts of the object are overlapping or that cannot be seen, even though you think you can interpolate the whole shape.</li><li>Avoid including shadows.</li><li>If the target is off screen, draw the box up to the edge of the image.</li></ul><p><img src="https://d7evko5405gb7.cloudfront.net/7675d355-4cf9-48c2-a1ea-9a04ccfa2db2/src/images/bounding-box-good-example.png" style="max-width:100%"></p><h2><span style="color: rgb(0, 138, 0);">Good Example</span></h2><p><img src="https://d7evko5405gb7.cloudfront.net/7675d355-4cf9-48c2-a1ea-9a04ccfa2db2/src/images/bounding-box-bad-example.png" style="max-width:100%"></p><h2><span style="color: rgb(230, 0, 0);">Bad Example</span></h2>
+    </full-instructions>
+    <short-instructions>
+      <h3><span style="color: rgb(0, 138, 0);">Good example</span></h3><p>Enter description of a correct bounding box label</p><p><img src="https://d7evko5405gb7.cloudfront.net/7675d355-4cf9-48c2-a1ea-9a04ccfa2db2/src/images/quick-instructions-example-placeholder.png" style="max-width:100%"></p><h3><span style="color: rgb(230, 0, 0);">Bad example</span></h3><p>Enter description of an incorrect bounding box label</p><p><img src="https://d7evko5405gb7.cloudfront.net/7675d355-4cf9-48c2-a1ea-9a04ccfa2db2/src/images/quick-instructions-example-placeholder.png" style="max-width:100%"></p>
+    </short-instructions>
+  </crowd-bounding-box>
+</crowd-form>
