@@ -1,7 +1,8 @@
 # Amazon Rekognition Custom Labels Workshop - Detect Woodpecker Holes in Utility Poles
 
 
-1. From the [Rekognition Immersion day Pre-requisite](https://rekognition-immersionday.workshop.aws/rek_apis.html) launch the Cloudformation stack in the "Launch Amazon SageMaker Notebook Instance" section. 
+## Step 1. 
+From the [Rekognition Immersion day Pre-requisite](https://rekognition-immersionday.workshop.aws/rek_apis.html) launch the Cloudformation stack in the "Launch Amazon SageMaker Notebook Instance" section. 
 
 **Note:** You don't need to do the "Download necessary notebooks" section on that page. 
 
