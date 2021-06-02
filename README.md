@@ -26,7 +26,7 @@ Follow the instructions in [Create a Bucket](https://docs.aws.amazon.com/AmazonS
 
 ![Git Termial](readme-images/CloneDialog.png)
 
-6. After cloning is complete, verify that directory named "aiml-immersionday" is created
+6. After cloning is complete, verify that directory named "amazon-rekognition-workshops" is created
 
 ![source code](readme-images/RepoFolder.png)
 
