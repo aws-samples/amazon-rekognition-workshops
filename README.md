@@ -22,7 +22,7 @@ Follow the instructions in [Create a Bucket](https://docs.aws.amazon.com/AmazonS
 4. Select Git > Clone Repository
 ![Git Termial](readme-images/CloneRepo.png)
 
-5. Enter git url "https://github.com/anujag24/aiml-immersionday" in the dialog box and click "Clone"
+5. Enter git url "https://github.com/aws-samples/amazon-rekognition-workshops" in the dialog box and click "Clone"
 
 ![Git Termial](readme-images/CloneDialog.png)
 
